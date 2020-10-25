@@ -13,7 +13,7 @@ Also a chance to practice Express, proxies, network requests, etc
   ```
 
 ## To Run
-
+- Open /config.js and pick 2 sites to combine. Make sure they are both running.
 - Run the following (or use the corresponding VSCode debug script)
   ```
   npm start
@@ -42,3 +42,7 @@ The following resources were important in creating this project
 - HTML base tag
   https://www.w3schools.com/tags/tag_base.asp  
   https://stackoverflow.com/questions/807878/how-to-make-javascript-execute-after-page-load/36096571#36096571
+
+## Screenshot
+Create React App combined with InRhythm.com
+![](./public/images/screenshot-001.png)
