@@ -7,15 +7,27 @@ Also a chance to practice Express, proxies, network requests, etc
 ## Set up
 
 - Prerequisites: Node
-- Run the following
+- Run the following in one terminal
   ```
+  cd node-express-proxy
+  npm install
+  ```
+- Run the following in another terminal
+  ```
+  cd create-react-app
   npm install
   ```
 
 ## To Run
-- Open /config.js and pick 2 sites to combine. Make sure they are both running.
+- Open /node-express-proxy/config.js and pick 2 sites to combine. Make sure they are both running.
 - Run the following (or use the corresponding VSCode debug script)
   ```
+  cd node-express-proxy
+  npm start
+  ```
+- If you wish to try injecting create-react-app into another site, you can run the following
+  ```
+  cd create-react-app
   npm start
   ```
 - Open the following in your browser  
@@ -27,9 +39,9 @@ Also a chance to practice Express, proxies, network requests, etc
 
 These are most interesting files to look at and learn from:
 
-- /config.js
-- /routes/proxy.route1.js - original solution with "creative" use of HTML's base tag
-- /routes/proxy.route2.js - better solution that first asks WEBSITE1 for every resourse and then if 404, asks WEBSITE2
+- /node-express-proxy/config.js
+- /node-express-proxy/routes/proxy.route1.js - original solution with "creative" use of HTML's base tag
+- /node-express-proxy/routes/proxy.route2.js - better solution that first asks WEBSITE1 for every resourse and then if 404, asks WEBSITE2
 
 ## Resources
 
@@ -45,4 +57,4 @@ The following resources were important in creating this project
 
 ## Screenshot
 Create React App combined with InRhythm.com
-![](./public/images/screenshot-001.png)
+![](./node-express-proxy/public/images/screenshot-001.png)
