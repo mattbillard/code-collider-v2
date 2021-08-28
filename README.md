@@ -6,7 +6,7 @@ Also a chance to practice Express, proxies, network requests, etc
 
 ## Set up
 
-- Prerequisites: Node
+- Prerequisites: Node v12+
 - Run the following in one terminal
   ```
   cd node-express-proxy
